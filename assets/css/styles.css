@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #edf0f1;
+}
+
+.nav_header {
+  background-color: #24252e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  width: 100%;
+}
+
+.logo {
+  background: #9595958c;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  width: 35px;
+}
+
+ul,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.main {
+  height: 100vh;
+}
+
+.main_header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  justify-content: space-between;
+  background: #000;
+}
+
+.big_menu {
+  background: #2b2d36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 43vh;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+}
+
+.title {
+  transition: 0.3s;
+  transition-delay: 0.095s;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.title:hover {
+  color: #ebfffb;
+  border: 1px solid #252525;
+  transition-delay: 0.07s;
+  background: #ff0000;
+  transform: scale(1.25) skew(-5deg);
+}
+
+/* WWI */
+.new_nav {
+  background: #282828;
+}
+
+.main_wars {
+  margin-top: -18px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.405)
+    ),
+    url(../images/wwi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wwi_text {
+  margin-top: 10px;
+  color: #edf0f1;
+  font-size: 24px;
+  margin-left: 32px;
+}
+
+.date {
+  margin-bottom: 4px;
+  color: #000;
+  width: max-content;
+  background: rgba(255, 255, 255, 0.378);
+  border-radius: 3px;
+  transform: skew(-15deg);
+}
+
+.w_text {
+  margin-top: 35px;
+}
+
+p {
+  opacity: 80%;
+}
+
+.btn {
+  background: #677c81;
+}
+
+.btn:hover {
+  background: #677c81af;
+}
+
+/* WWII */
+.swastika {
+  position: absolute;
+  top: 88px;
+  left: 822px;
+  cursor: pointer;
+  width: 45px;
+  mix-blend-mode: multiply;
+  transition: 1.2s;
+}
+
+.swastika:hover {
+  transform: rotate(-720deg);
+}
+
+.wwii {
+  background-image: url(../images/hitler.gif);
+}
+
+.main_sorrow {
+  font-size: 48px;
+  margin-left: 20px;
+}
